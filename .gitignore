@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/
+
+# OS
+.DS_Store

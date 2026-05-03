@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-03T00:48:25 IST" name="API Suite" finished-at="2026-05-03T00:48:30 IST" duration-ms="4873">
+    <groups>
+    </groups>
+    <test started-at="2026-05-03T00:48:25 IST" name="Test" finished-at="2026-05-03T00:48:30 IST" duration-ms="4873">
+      <class name="com.api.tests.ProductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.tests.ProductTest@7f485fda]" started-at="2026-05-03T00:48:25 IST" name="setup" finished-at="2026-05-03T00:48:26 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createProductTest()[pri:0, instance:com.api.tests.ProductTest@7f485fda]" started-at="2026-05-03T00:48:26 IST" name="createProductTest" finished-at="2026-05-03T00:48:28 IST" duration-ms="2707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method signature="createProduct_JSON(com.api.pojo.Product)[pri:0, instance:com.api.tests.ProductTest@7f485fda]" started-at="2026-05-03T00:48:26 IST" name="createProduct_JSON" data-provider="jsonData" finished-at="2026-05-03T00:48:28 IST" duration-ms="2088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.api.pojo.Product@31553439]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct_JSON -->
+        <test-method signature="createProduct_Excel(com.api.pojo.Product)[pri:0, instance:com.api.tests.ProductTest@7f485fda]" started-at="2026-05-03T00:48:28 IST" name="createProduct_Excel" data-provider="excelData" finished-at="2026-05-03T00:48:29 IST" duration-ms="1193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.api.pojo.Product@51d5f572]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct_Excel -->
+        <test-method signature="createProduct_Excel(com.api.pojo.Product)[pri:0, instance:com.api.tests.ProductTest@7f485fda]" started-at="2026-05-03T00:48:29 IST" name="createProduct_Excel" data-provider="excelData" finished-at="2026-05-03T00:48:30 IST" duration-ms="1135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.api.pojo.Product@766c7ce8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProduct_Excel -->
+      </class> <!-- com.api.tests.ProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- API Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+[
+  {
+    "title": "JSON Product 1",
+    "price": 150,
+    "description": "Desc JSON",
+    "category": "electronics",
+    "image": "https://i.pravatar.cc"
+  }
+]
